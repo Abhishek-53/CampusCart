@@ -1,0 +1,21 @@
+# Dependencies
+# These folders can be huge and are reinstalled with `npm install`
+/node_modules
+/server/node_modules
+/client/node_modules
+
+# Environment Variables - VERY IMPORTANT
+# Keep secret keys out of GitHub
+.env
+/server/.env
+/client/.env
+
+# Production build folder for React
+/client/build
+
+# Log files
+*.log
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
