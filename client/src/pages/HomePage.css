@@ -1,0 +1,9 @@
+/* client/src/pages/HomePage.css */
+
+.product-list-container {
+  display: grid;
+  /* Create 4 equal-width columns */
+  grid-template-columns: repeat(4, 1fr);
+  /* Add spacing between the cards */
+  gap: 20px;
+}
